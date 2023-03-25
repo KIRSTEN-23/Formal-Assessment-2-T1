@@ -80,6 +80,8 @@ form{
 .input-el::placeholder{
     color: white;
     opacity: 1;
+    font-family: 'lato', sans-serif;
+    font-size: 18px;
 }
 
 select{
@@ -118,6 +120,21 @@ select{
 .quarter{
     background-color: white;
     height: 60%;
+}
+
+.quarter h3{
+    font-family: 'lato', sans-serif;
+    font-size: 24px;
+}
+
+.quarter h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 48px;
+}
+
+.quarter p{
+    font-family: 'lato', sans-serif;
+    font-size: 18px;
 }
 
 footer{

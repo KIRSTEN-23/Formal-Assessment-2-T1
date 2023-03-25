@@ -62,11 +62,12 @@ ul a{
     width: 470px;
     height: 470px;
     margin-right: 70px;
+    margin-top: 50px;
 }
 
 .block-left{
     text-align: center;
-    font-weight: ;
+    padding-top: 100px;
 }
 
 .col-6-right{
