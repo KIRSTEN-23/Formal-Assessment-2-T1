@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    background-color: #1A1A1D;
+}
+
 nav{
     width:100%;
     height: 100px;
@@ -17,6 +21,7 @@ nav{
     font-size: 30px;
     font-weight: bold;
     letter-spacing: 1px;
+    color: white;
 }
 
 .nav-con{
@@ -37,7 +42,7 @@ ul a{
     float: left;
     padding-right: 40px;
     padding-top: 10px;
-    color:black;
+    color: white;
     font-family:  'Fjalla One', sans-serif;
     font-size: 18px;
 }
@@ -47,17 +52,18 @@ ul a{
     border-radius: 30px;
     height: 50px;
     padding-left: 15px;
-    border: 2px solid black;
+    border: 2px solid #C3073F;
     float: right;
+    background-color: #1A1A1D;
 }
 
 ::placeholder{
-    color: black;
+    color: white;
     opacity: 1;
 }
 
 form{
-    background-color: lightgray;
+    background-color: #4E4E50;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-right: 30px;
@@ -75,7 +81,7 @@ form{
     margin: 15px;
     border-radius: 30px;
     height: 50px;
-    background-color: grey;
+    background-color: #1A1A1D;
     color: white;
     padding-left: 15px;
     border: none;
@@ -85,7 +91,7 @@ form{
     width:95%;
     margin: 15px;
     border-radius: 30px;
-    background-color: grey;
+    background-color: #1A1A1D;
     color: white;
     padding-left: 15px;
     border: none;
@@ -115,7 +121,7 @@ select{
     margin-left: 50%;
     border-radius: 50px;
     height: 100px;
-    background-color: black;
+    background-color: #C3073F;
     color: white;
     width: 47%;
     height: 70px;
@@ -136,28 +142,30 @@ select{
 
 .col-3{
     height: 38%;
-    background-color: darkgrey;
     width: 100%;
 }
 
 .quarter{
-    background-color: white;
+    background-color: #1A1A1D;
     height: 60%;
 }
 
 .quarter h3{
     font-family: 'lato', sans-serif;
     font-size: 24px;
+    color: white;
 }
 
 .quarter h1{
     font-family: 'Fjalla One', sans-serif;
     font-size: 48px;
+    color: white;
 }
 
 .quarter p{
     font-family: 'lato', sans-serif;
     font-size: 18px;
+    color: white;
 }
 
 footer{
@@ -186,4 +194,17 @@ footer{
 img{
     fill: none;
     stroke: grey;
+}
+
+li:hover{
+    curser: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+}
+
+.active{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
 }

@@ -3,11 +3,18 @@
     padding: 0;
 }
 
+body{
+    background-color: #1A1A1D;
+}
+
 header{
     width: 100%;
     height: 900px;
-    background-color: darkgrey;
-    padding-top: 150px;
+    background-image: url(../assets/Avril-Lavigne-Let-Go-20th-Anniversary-Edition-scaled.jpeg);
+}
+
+.text{
+    margin-top: 100px;
 }
 
 header h1{
@@ -15,12 +22,14 @@ header h1{
     margin-bottom: 70px;
     font-size: 72px;
     font-family: 'Fjalla One', sans-serif;
+    color: white;
 }
 
 header h3{
     margin-left: 122px;
     font-size: 36px;
     font-family: 'Lato', sans-serif;
+    color: white;
 }
 
 nav{
@@ -29,7 +38,6 @@ nav{
     padding-right: 50px;
     padding-left: 50px;
     padding-top: 40px;
-    background-color: darkgrey;
 }
 
 .logo{
@@ -38,6 +46,7 @@ nav{
     font-size: 30px;
     font-weight: bold;
     letter-spacing: 1px;
+    color: white;
 }
 
 .nav-con{
@@ -58,7 +67,7 @@ ul a{
     float: left;
     padding-right: 40px;
     padding-top: 10px;
-    color:black;
+    color: white;
     font-family:  'Fjalla One', sans-serif;
     font-size: 18px;
 }
@@ -68,13 +77,14 @@ ul a{
     border-radius: 30px;
     height: 50px;
     padding-left: 15px;
-    background-color: darkgrey;
-    border: 2px solid black;
+    background-color: #1A1A1D;
+    border: 2px solid #C3073F;
     float: right;
+    opacity: 0.6;
 }
 
 ::placeholder{
-    color: black;
+    color: white;
     opacity: 1;
     font-family: 'Lato', sans-serif;
     font-size: 18px;
@@ -104,27 +114,32 @@ ul a{
 }
  
 .normal{
-    border: solid black;
+    border: solid #C3073F;
     color: white;
-    background-color: black;
+    background-color: #C3073F;
 }
 
 .inverted{
-    border: 3px solid black;
+    border: 3px solid #C3073F;
     border-radius: 50px;
     text-align: center;
     padding-top: 15px;
     margin-left: 40px;
     font-weight: bold;
     font-size: 24px;
-    color: black;
-    background-color: darkgrey;
+    color: white;
+}
+
+.section-head{
+    color: white;
+    font-size: 24px;
 }
 
 
 .block-right{
     height: 560px;
-    background-color: lightgray;
+    background-color: #4E4E50;
+    opacity: 0.5;
     width: 80%;
     margin-top: -60px;
     margin-left: 90%;
@@ -136,40 +151,144 @@ ul a{
 .block-right h3{
     font-family: 'Fjalla One', sans-serif;
     font-size: 24px;
+    color: white;
 }
 
 .block-right h1{
     font-family: 'Fjalla One', sans-serif;
     font-size: 48px;
+    color: white;
 }
 
 .block-right p{
     font-family: 'Lato', sans-serif;
     font-size: 18px;
+    color: white;
 }
 
 .block-left{
-    background-color: gray;
     height: 390px;
     width: 70%;
     margin-top: -60px;
     margin-left: -70%;
 }
 
-.small-image-block{
-    background-color: darkgray;
+.image-top-left{
+    background-image: url(../assets/ab67616d0000b2731e0668d9ae6539617476416b.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 277px;
+    margin-top: 30px;
+}
+
+.image-top-left-middle{
+    background-image: url(../assets/Avril_Lavigne_-_We_Are_Warriors.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 277px;
+    margin-top: 30px;
+}
+
+.image-top-right-middle{
+    background-image: url(../assets/Avril_Lavigne_–_Head_Above_Water_\(Official_Album_Cover\).png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 277px;
+    margin-top: 30px;
+}
+
+.image-top-right{
+    background-image: url(../assets/Avril_Lavigne_\(album\).png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 277px;
+    margin-top: 30px;
+}
+
+.image-middle-left{
+    background-image: url(../assets/Avril-Lavigne-Let-Go-20th-Anniversary-Edition-scaled.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 277px;
+    margin-top: 30px;
+}
+
+.image-middle-left-middle{
+    background-image: url(../assets/Under_My_Skin_\(Avril_Lavigne_album\)_cover.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 277px;
+    margin-top: 30px;
+}
+
+.image-middle-right-middle{
+    background-image: url(../assets/The_Best_Damn_Thing.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 277px;
+    margin-top: 30px;
+}
+
+.image-middle-right{
+    background-image: url(../assets/Goodbye_Lullaby.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 277px;
+    margin-top: 30px;
+}
+
+.image-bottom-left{
+    background-image: url(../assets/Avril_Lavigne_\(album\).png)
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 277px;
+    margin-top: 30px;
+}
+
+.image-bottom-left-middle{
+    background-image: url(../assets/ab67616d0000b2736f82d67876de8126901b2daf.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 277px;
+    margin-top: 30px;
+}
+
+.image-bottom-right-middle{
+    background-image: url(../assets/Avril_Lavigne_–_Head_Above_Water_\(Official_Album_Cover\).png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 277px;
+    margin-top: 30px;
+}
+
+.image-bottom-right{
+    background-image: url(../assets/ab67616d0000b2731e0668d9ae6539617476416b.jpeg);
+    background-size: cover;
+    background-position: center;
     width: 100%;
     height: 277px;
     margin-top: 30px;
 }
 
 .strip{
-    background-color: #2b2b2b;
+    background-color: #1A1A1D;
     margin-top: 60%;
     height: 70px;
     padding-left: 5%;
     padding-top: 5%;
     padding-bottom: 5%;
+    opacity: 0.7;
 }
 
 .strip h3{
@@ -210,4 +329,17 @@ footer{
 img{
     fill: none;
     stroke: grey;
+}
+
+li:hover{
+    curser: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+}
+
+.active{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
 }
