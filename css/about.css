@@ -9,7 +9,6 @@ nav{
     padding-right: 50px;
     padding-left: 50px;
     padding-top: 40px;
-    box-sizing: ;
 }
 
 .logo{
@@ -59,12 +58,16 @@ ul a{
 
 form{
     background-color: lightgray;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
     margin-top: 175px;
     margin-right: 10%;
     margin-left: 1%;
     margin-bottom: 175px;
     width:76%;
+    height: 65%;
 }
 
 .input-el{
@@ -72,12 +75,31 @@ form{
     margin: 15px;
     border-radius: 30px;
     height: 50px;
-    background-color: black;
+    background-color: grey;
     color: white;
     padding-left: 15px;
+    border: none;
+}
+
+.input-text{
+    width:95%;
+    margin: 15px;
+    border-radius: 30px;
+    background-color: grey;
+    color: white;
+    padding-left: 15px;
+    border: none;
+    padding-top: 15px;
 }
 
 .input-el::placeholder{
+    color: white;
+    opacity: 1;
+    font-family: 'lato', sans-serif;
+    font-size: 18px;
+}
+
+.input-text::placeholder{
     color: white;
     opacity: 1;
     font-family: 'lato', sans-serif;
@@ -101,6 +123,7 @@ select{
     font-weight: bold;
     font-size: 24px;
     text-align: center;
+    border: none;
 }
 
 .half{
@@ -112,8 +135,8 @@ select{
 }
 
 .col-3{
-    height: 37.6%;
-    background-color: grey;
+    height: 38%;
+    background-color: darkgrey;
     width: 100%;
 }
 

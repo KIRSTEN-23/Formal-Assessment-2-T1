@@ -9,7 +9,7 @@ nav{
     padding-right: 50px;
     padding-left: 50px;
     padding-top: 40px;
-    box-sizing: ;
+    margin-bottom: 85px;
 }
 
 .logo{
@@ -57,28 +57,40 @@ ul a{
     opacity: 1;
 }
 
+.row{
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+h1{
+    font-family: 'lato', sans-serif;
+    font-size: 24px;
+}
+
 .col-6-left{
-    background-color: grey;
-    width: 470px;
-    height: 470px;
+    background-color: lightgrey;
+    width: 520px;
+    height: 520px;
     margin-right: 70px;
     margin-top: 50px;
 }
 
 .block-left{
     text-align: center;
-    padding-top: 100px;
+    padding-top: 35%;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 64px;
+    color: white;
 }
 
 .col-6-right{
     width: 565px;
-    height: 470px;
-    margin-right: 70px;
 }
 
 .div-con{
     width: 100%;
     margin-bottom: 40px;
+    margin-left: -10%;
 }
 
 .div-con ul{
@@ -90,10 +102,23 @@ ul a{
     padding-right: 40px;
     font-size: 18px;
     color: black;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .col-3{
     margin-top: 10%;
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    font-family: 'lato', sans-serif;
+    font-size: 18px;
 }
 
 td{
@@ -101,4 +126,22 @@ td{
     border-left: none;
     border-right: none;
     border-bottom: 20px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 14px;
 }
+
+li:hover{
+    curser: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+}
+
+.active{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+}
+
+
+
