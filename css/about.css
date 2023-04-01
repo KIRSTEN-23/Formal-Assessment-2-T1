@@ -208,3 +208,15 @@ li:hover{
     text-decoration-thickness: 3px;
     text-underline-offset: 10px;
 }
+
+.email{
+    width: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.phone{
+    width: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+}

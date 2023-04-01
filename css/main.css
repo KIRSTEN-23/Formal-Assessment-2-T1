@@ -47,12 +47,27 @@ nav{
     font-weight: bold;
     letter-spacing: 1px;
     color: white;
+    width: 50px;
+    height: 50px;
+}
+
+.logo-img{
+    float: left;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    width: 50px;
+    height: 50px;
+    padding-right: 5px;
 }
 
 .nav-con{
     width: 940px;
     height: 50px;
     float: left;
+    padding-left: 50px;
 }
 
 .nav-con ul{
@@ -91,7 +106,7 @@ ul a{
 }
 
 .container-fluid{
-    width: 550px;
+    width: 650px;
     padding-left: 0;
     padding-right: 0;
     margin-left: 90px;
@@ -130,11 +145,12 @@ ul a{
     color: white;
 }
 
-.section-head{
-    color: white;
-    font-size: 24px;
+.small-heart{
+    width: 55px;
+    float: right;
+    padding-right: 15px;
+    margin-top: -50px;
 }
-
 
 .block-right{
     height: 560px;
@@ -146,6 +162,25 @@ ul a{
     padding-left: 17%;
     padding-top: 30px;
     padding-right: 10%;
+}
+
+.arrows{
+    width: 120px;
+    margin-right: 30px;
+    margin-left: 315px;
+    margin-bottom: 120px;
+}
+
+.left-arrow{
+    width: 55px;
+    height: 50px;
+    padding-right: 10px;
+}
+
+.right-arrow{
+    width: 55px;
+    height: 50px;
+    padding-left: 10px;
 }
 
 .block-right h3{
@@ -281,9 +316,29 @@ ul a{
     margin-top: 30px;
 }
 
-.strip{
-    background-color: #1A1A1D;
-    margin-top: 60%;
+.overlay{
+    width: 100%;
+    height: 277px;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+}
+
+.overlay:hover{
+    curser:pointer;
+    opacity: 1;
+}
+
+.button{
+    height: 70px;
+    width: 70px;
+    margin-left: 39%;
+    margin-bottom: 25%;
+    margin-top: 20%;
+}
+
+
+.content{
+    background-color: #4E4E50;
     height: 70px;
     padding-left: 5%;
     padding-top: 5%;
@@ -291,16 +346,21 @@ ul a{
     opacity: 0.7;
 }
 
-.strip h3{
+.content h3{
     font-size: 12px;
     font-family: 'Lato', sans-serif;
     color: white;
 }
 
-.strip h1{
+.content h1{
     font-size: 18px;
     font-family: 'Fjalla One', sans-serif;
     color: white;
+}
+
+.heart-img{
+    width: 110px;
+    padding-left: 40px;
 }
 
 footer{
@@ -342,4 +402,8 @@ li:hover{
     text-decoration: underline;
     text-decoration-thickness: 3px;
     text-underline-offset: 10px;
+}
+
+.container h1{
+    color: white;
 }

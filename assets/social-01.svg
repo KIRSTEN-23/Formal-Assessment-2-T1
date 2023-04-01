@@ -1,1 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 219.32 219.32"><defs><style>.cls-1{fill:url(#Degradado_sin_nombre_7);}.cls-2{fill:#fff;}</style><linearGradient id="Degradado_sin_nombre_7" x1="179.27" y1="40.05" x2="40.05" y2="179.27" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="red"/><stop offset="1" stop-color="#850000"/></linearGradient></defs><g id="ELEMENTS"><circle class="cls-1" cx="109.66" cy="109.66" r="98.45"/><path class="cls-2" d="M162.37,95.35a23.64,23.64,0,0,0-23.64-23.64H78.28A23.63,23.63,0,0,0,54.64,95.35v28.13a23.64,23.64,0,0,0,23.64,23.64h60.45a23.65,23.65,0,0,0,23.64-23.64Zm-35.55,16.17L99.71,124.93c-1.06.57-4.67-.19-4.67-1.4V96c0-1.23,3.64-2,4.7-1.39l26,14.12C126.78,109.35,127.92,110.92,126.82,111.52Z"/></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 219.3 219.3" style="enable-background:new 0 0 219.3 219.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FFFFFF;stroke-width:5;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
+</style>
+<g id="ELEMENTS">
+	<circle class="st0" cx="109.7" cy="109.7" r="98.4"/>
+	<path class="st1" d="M162.4,95.4c0-13.1-10.6-23.6-23.6-23.6l0,0H78.3c-13.1,0-23.6,10.6-23.6,23.6l0,0v28.1
+		c0,13.1,10.6,23.6,23.6,23.6l0,0h60.4c13.1,0,23.6-10.6,23.6-23.6L162.4,95.4L162.4,95.4z M126.8,111.5l-27.1,13.4
+		c-1.1,0.6-4.7-0.2-4.7-1.4V96c0-1.2,3.6-2,4.7-1.4l26,14.1C126.8,109.4,127.9,110.9,126.8,111.5z"/>
+</g>
+</svg>
