@@ -18,11 +18,7 @@ nav{
 
 .logo{
     float: left;
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    color: white;
+    padding-right: 40px;
 }
 
 .nav-con{
@@ -79,7 +75,7 @@ h1{
     height: 520px;
     margin-right: 70px;
     margin-top: 50px;
-    background-image: url(../assets/2495_header.jpeg);
+    background-image: url(../assets/My\ Favs\ Mix.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -150,12 +146,14 @@ li:hover{
     text-decoration: underline;
     text-decoration-thickness: 3px;
     text-underline-offset: 10px;
+    text-decoration-color: #C3073F;
 }
 
 .active{
     text-decoration: underline;
     text-decoration-thickness: 3px;
     text-underline-offset: 10px;
+    text-decoration-color: #C3073F;
 }
 
 .menu{
@@ -193,13 +191,13 @@ line-element{
     background-color: #C3073F;
 }
 
-marker{
+.marker{
     width: 30px;
     height: 30px;
     background-color: #C3073F;
     border-radius: 20px;
-    margin-top: -12px;
-    margin-left: 30%;
+    margin-top: -17px;
+    margin-left: 50%;
 }
 
 .col-box{
@@ -210,12 +208,15 @@ marker{
     background-size: cover;
 }
 
-.col-6{
-    width: 60%;
-    margin-left: 18%;
-    margin-right: 30%;
+.small-logo{
+    width: 50px;
+    margin: 0 auto;
+    margin-top: 100px;
 }
 
-.thumbnail{
-    
+.overlay{
+    width: 520px;
+    height: 520px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-left: -12px;
 }

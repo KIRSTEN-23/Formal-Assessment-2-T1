@@ -20,17 +20,19 @@
 </head>
 <body>
     <nav>
-        <div class="logo">STREAM</div>
+                
         <div class="nav-con">
 
+            <div class="logo"><img src="../assets/stream_logo_white.png" style="height: 50px;"></div>
+        
             <ul>
-                <a href="../index.html"><li>Recent Releases</li></a> 
+               <a href="../index.html"><li>Recent Releases</li></a> 
                 <a href="../index.html"><li>Popular Albums</li></a>
                 <a href="../pages/about.html" target="_blank"><li>About Label</li></a>
-                <a href="../pages/my playlist.html" target="_blank"><li class="active">My Playlists</li></a>
+                <a href="../pages/my playlist.html" target="_blank"><li>My Playlists</li></a>
             </ul>
         </div>
- 
+
         <input class="input" type="search" placeholder="Search...">
 
     </nav>
@@ -40,8 +42,13 @@
         <h1>My Playlist</h1>
 
         <div class="col-6-left">
-            <div class="block-left">
-                FAVOURITES<br/><p style="font-size: 48px; font-family: 'Fjalla One', sans-serif;">MIX</p>
+            <div class="overlay">
+                <div class="block-left">
+                    FAVOURITES<br/><p style="font-size: 48px; font-family: 'Fjalla One', sans-serif;">MIX</p>
+                </div>
+                <div class="small-logo">
+                    <img src="../assets/stream_small_logo_white.svg">
+                </div>
             </div>
         </div>
 
@@ -153,32 +160,43 @@
     <div class="col-12">
         <div class="line-element">
             <div class="line">
-                <div class="line-fill">
-                </div>
-                <div class="marker"></div>
+                <div class="line-fill"></div>
             </div>
+            <div class="marker"></div>
         </div>
     </div>
 
-    <table>
+    <table style="margin-left: 18%; margin-bottom: 2%; width: 80%;">
         <tr>
-            <td>
-                <div class="col-6">
+            <td width="6%">
                     <div class="col-box"></div>
-                    
-                </div>
-                <div class="col-6">
-                    <div class="thumbnail">
-                        
-                    </div>
-                </div>
             </td>
-            <td>
+            
+            <td width="17%">
+                Iris<br/>
+                <font style="font-family: 'Fjalla One', sans-serif;font-size: 12px;">The Goo Goo Dolls</font>
+            </td>
+            
+            <td width="4.5%">
+                <img src="../assets/previous_icon.svg" style="width: 40px;">
+            </td>
 
+            <td width="7.5%">
+                <img src="../assets/pause_icon.svg" style="width: 80px;">
             </td>
-            <td>
 
+            <td width="19%">
+                <img src="../assets/next_icon.svg" style="width: 40px;">
             </td>
+
+            <td width="4%">
+                2:24
+            </td>
+
+            <td>
+                <img src="../assets/options_media_icon.svg" style="width: 30px;">
+            </td>
+
         </tr>
     </table>
 

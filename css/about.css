@@ -17,11 +17,7 @@ nav{
 
 .logo{
     float: left;
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    color: white;
+    padding-right: 40px;
 }
 
 .nav-con{
@@ -201,12 +197,14 @@ li:hover{
     text-decoration: underline;
     text-decoration-thickness: 3px;
     text-underline-offset: 10px;
+    text-decoration-color: #C3073F;
 }
 
 .active{
     text-decoration: underline;
     text-decoration-thickness: 3px;
     text-underline-offset: 10px;
+    text-decoration-color: #C3073F;
 }
 
 .email{
